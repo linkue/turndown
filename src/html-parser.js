@@ -47,9 +47,9 @@ function createHTMLParser () {
       }
     }
   } else {
-    var JSDOM = require('jsdom').JSDOM
+    var jsdom = require('jsdom-jscore-rn')
     Parser.prototype.parseFromString = function (string) {
-      return new JSDOM(string).window.document
+      return jsdom.html(string)
     }
   }
   return Parser

@@ -2,7 +2,10 @@
 
 [![Build Status](https://travis-ci.org/domchristie/turndown.svg?branch=master)](https://travis-ci.org/domchristie/turndown)
 
-Convert HTML into Markdown with JavaScript.
+Convert HTML into Markdown with JavaScript in React Native. Forked from
+[turndown](https://github.com/domchristie/turndown) to use
+[jsdom-jscore-rn](https://github.com/iamcco/jsdom-jscore-rn) to work in React
+Native (JSOM relies on Node modules that are not available in JSCore / V8)
 
 ### to-markdown has been renamed to Turndown. See the [migration guide](https://github.com/domchristie/to-markdown/wiki/Migrating-from-to-markdown-to-Turndown) for details.
 
