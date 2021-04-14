@@ -43,7 +43,8 @@
     "build-iife": "rollup -c config/rollup.config.iife.js",
     "build-test": "browserify test/turndown-test.js --outfile test/turndown-test.browser.js",
     "prepare": "npm run build",
-    "test": "npm run build && npm run build-test && standard ./src/**/*.js && node test/turndown-test.js"
+    "test": "npm run build && npm run build-test && standard ./src/**/*.js && node test/turndown-test.js",
+    "standard": "standard --fix"
   },
   "bugs": {
     "url": "https://github.com/gmaclennan/turndown-rn/issues"
