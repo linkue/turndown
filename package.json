@@ -1,7 +1,7 @@
 {
   "name": "turndown-rn",
   "description": "A library that converts HTML to Markdown",
-  "version": "7.0.1",
+  "version": "7.1.1",
   "author": "Dom Christie",
   "main": "lib/turndown.cjs.js",
   "module": "lib/turndown.es.js",
@@ -17,7 +17,7 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-replace": "^2.4.2",
     "browserify": "^17.0.0",
-    "rollup": "^2.45.2",
+    "rollup": "^2.52.3",
     "standard": "^16.0.3",
     "turndown-attendant": "0.0.3"
   },
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmaclennan/turndown-rn.git"
+    "url": "git+https://github.com/linkue/turndown-rn.git"
   },
   "scripts": {
     "build": "npm run build-cjs && npm run build-es && npm run build-umd && npm run build-iife",
@@ -47,9 +47,9 @@
     "standard": "standard --fix"
   },
   "bugs": {
-    "url": "https://github.com/gmaclennan/turndown-rn/issues"
+    "url": "https://github.com/linkue/turndown-rn/issues"
   },
-  "homepage": "https://github.com/gmaclennan/turndown-rn#readme",
+  "homepage": "https://github.com/linkue/turndown-rn#readme",
   "directories": {
     "lib": "lib",
     "test": "test"
